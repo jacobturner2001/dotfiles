@@ -1,0 +1,48 @@
+The doctor will see you now...
+
+> Checking your Emacs version...
+> Checking for Doom's prerequisites...
+  [031mx Couldn't find the `rg' binary; this a hard dependecy for Doom, file searches may not work at all[0m
+> Checking for Emacs config conflicts...
+  [033m! Found another Emacs config: ~/.emacs.d (directory)[0m
+    Having multiple Emacs configs may prevent Doom from loading
+    properly. Emacs will load the first it finds and ignore the rest. If
+    Doom isn't starting up correctly (e.g. you get a vanilla splash
+    screen), make sure that only one of these exist.
+    
+    Chemacs users may ignore this warning.
+> Checking for missing Emacs features...
+> Checking for private config conflicts...
+> Checking for common environmental issues...
+> Checking for stale elc files...
+> Checking for problematic git global settings...
+> Checking Doom Emacs...
+  [032m✓ Initialized Doom Emacs 3.0.0-pre[0m
+  [032m✓ Detected 31 modules[0m
+  [032m✓ Detected 108 packages[0m
+  > Checking Doom core for irregularities...
+    [033m! Couldn't find the `fd' binary; project file searches will be slightly slower[0m
+    [033m! Failed to locate 'Symbols Nerd Font Mono' font on your system[0m
+      This font is required for icons in Doom Emacs. To download and install them, do
+      one of the following:
+      
+        - Execute `M-x nerd-icons-install-fonts' from within Doom Emacs (NOTE:     on
+        - Windows this command will only download them; the fonts must then     be
+        - installed manually afterwards).  Download and install 'Symbols Nerd Font' from
+        - https://nerdfonts.com     or via your OS package manager. (You'll need to change
+        - the     `nerd-icons-font-names' and/or `nerd-icons-font-family' variables to
+        - reflect a non-standard file or font family name).
+      
+  > Checking for stale elc files in your DOOMDIR...
+  > Checking your enabled modules...
+    > [01m:lang sh[0m
+      [033m! Couldn't find shellcheck. Shell script linting will not work[0m
+    > [01m:lang markdown[0m
+      [033m! Couldn't find a markdown compiler, `markdown-preview' won't work[0m
+    Some advanced consult filtering features will not work as a result, see the
+    module readme.
+    > [01m:completion vertico[0m
+      [033m! The installed ripgrep binary was not built with support for PCRE lookaheads.[0m
+
+[033mThere are 4 warnings![0m
+[031mThere is 1 error![0m
